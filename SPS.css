@@ -1,0 +1,124 @@
+/*------------------------------------TAGS-------------------------------*/
+html, body {
+  margin: 0 30px;
+  font-family: 'Spartan', sans-serif;
+  background-image: image(C:\Users\Ilham\Documents\Web Dev\Social Proof Section\social-proof-section-master\images\bg-pattern-top-desktop.svg), image(C:\Users\Ilham\Documents\Web Dev\Social Proof Section\social-proof-section-master\images\bg-pattern-bottom-desktop.svg);
+}
+
+/*------------------------------------CLASS-------------------------------*/
+/* Will need to wrap everything in the end for img placement */
+.wrapperTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.LeftSideText {
+  color: purple;
+  grid-auto-columns: minmax(100px, auto);
+  padding: 70px 0 30px 130px;
+}
+
+.MainHeading {
+  font-weight: 600;
+  font-size: 3em;
+  color: #502050;
+  line-height: 1em;
+}
+
+.SubHeading {
+  color: #937b92;
+  line-height: 1.5em;
+}
+
+.RatingsMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 100px 70px 30px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Ratings1 {
+  background-color: rgba(80, 32, 80, 0.2);
+  margin: 16px auto;
+  padding-left: 20px;
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  right: 109px;
+  border-radius: 0.3em;
+}
+
+.Ratings2 {
+  background-color: rgba(80, 32, 80, 0.2);
+  margin: 16px auto;
+  padding-left: 20px;
+  width: 80%;
+  border-radius: 0.3em;
+}
+
+.Ratings3 {
+  background-color: rgba(80, 32, 80, 0.2);
+  margin: 16px auto;
+  padding-left: 20px;
+  width: 80%;
+  position: relative;
+  right: -109px;
+  border-radius: 0.3em;
+}
+
+.wrapperBottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  grid-auto-columns: minmax(700px auto);
+}
+
+.Review1 {
+  padding: 30px;
+  background-color: #502050;
+  border-radius: 0.5em;
+}
+
+.Review2 {
+  background-color: #502050;
+  border-radius: 0.5em;
+  position: relative;
+  top: 20px;
+  padding: 30px;
+}
+
+.Review3 {
+  background-color: #502050;
+  position: relative;
+  top: 40px;
+  padding: 30px;
+  border-radius: 0.5em;
+}
+
+.CustomerReview {
+  padding-top: 35px;
+  color: #f8deff;
+  font-size: 0.75em;
+  line-height: 2em;
+}
+
+.ReviewerName {
+  margin-left: 100px;
+  margin-bottom: 0;
+  color: #c6c6c6;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.VerBuy {
+  margin-left: 100px;
+  margin-top: 0;
+  color: #ee68a4;
+  font-size: 0.75rem;
+}
+
+.Portraits {
+  border-radius: 50%;
+  float: left;
+}
